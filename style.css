@@ -1,8 +1,8 @@
 /* CSS Reset */
 
 *{
-    padding:0 px;
-    margin:0 px;
+    padding:0px;
+    margin:0px;
     font-family:'Exo 2', sans-serif;
 }
 html{
@@ -13,13 +13,13 @@ html{
 #navbar{
     display:flex;
     position:sticky;
-    top:0 px;
+    top:0px;
 }
 
 #navbar::before{
     content:"";
     position:absolute;
-    background-color:rgb (255,125,125);
+    background-color:rgb(255,125,125);
     height:100%;
     width:100%;
     opacity:0.6;
@@ -27,16 +27,16 @@ html{
 }
 /* LOGO AND LOGO NAME */
 #logo{
-    margin-left:20 px;
+    margin-left:20px;
     text-align:center;
-    padding:5 px;
+    padding:5px;
 }
 #logo img{
-    width:56 px;
-    height:60 px;
+    width:56px;
+    height:60px;
 }
 #logoalt{
-    font-size:1.5 rem;
+    font-size:1.5rem;
     color:white;
     font-family: 'Exo 2', sans-serif;
 }
@@ -45,17 +45,17 @@ html{
     display:flex;
     align-items:center;
     justify-content:center;
-    padding-left:150 px;
+    padding-left:150px;
 }
 #navbar ul li{
     list-style:none;
 }
 #navbar ul li a{
     text-decoration:none;
-    font-size:1.5 rem;
+    font-size:1.5rem;
     font-weight:bolder;
     color:white;
-    padding:25 px 40 px;
+    padding:25px 40px;
     font-family: 'Exo 2', sans-serif;
 }
 #navbar ul li a:hover{
@@ -69,7 +69,7 @@ html{
     position:absolute;
     top:0;
     left:0;
-    background-color:rgb (255,125,125);
+    background-color:rgb(255,125,125);
     height:100%;
     width:100%;
     z-index:-1;
@@ -79,29 +79,29 @@ html{
     display:flex;
     justify-content:center;
     align-items:center;
-    height:606 px;
+    height:606px;
     color:white;
 }
 #home-content{
-    padding-left:125 px;
+    padding-left:125px;
 }
 .primary-heading{
-    font-size:3 rem;
+    font-size:3rem;
     font-family: 'Exo 2', sans-serif;
 }
 .content{
-    font-size:1.8 rem;
+    font-size:1.8rem;
     font-family: 'Exo 2', sans-serif;
 }
 #home #home-content p{
-    padding-top:20 px;
+    padding-top:20px;
 }
 
 /* ABOUT SECTION */
 #about::before{
     content:"";
     position:absolute;
-    background:url('/img/background1.png') no-repeat center bottom/cover;
+    background:url('background1.png') no-repeat center bottom/cover;
     height:100%;
     width:100%;
     z-index:-1;
@@ -113,30 +113,30 @@ html{
 
 #about #about-content{
     display:grid;
-    grid-gap:2 rem;
-    grid-template-columns:repeat (auto-fit,minmax (250 px,1 fr));
+    grid-gap:2rem;
+    grid-template-columns:repeat (auto-fit,minmax (250px,1fr));
     grid-template-areas:
     'heading heading heading heading';
-    background-color:rgb (24,26,27);
-    border:4 px solid rgb (255,125,125); 
+    background-color:rgb(24,26,27);
+    border:4px solid rgb(255,125,125); 
     color:white;
-    width:1200 px;
-    height:400 px;
-    margin:100 px;
-    padding:50 px;
+    width:1200px;
+    height:400px;
+    margin:100px;
+    padding:50px;
     list-style:none;
 }
 #about #about-content #heading{
     display:block;
     margin:auto;
     grid-area:heading;
-    color:rgb (255,125,125);
-    font-size:1 rem;
+    color:rgb(255,125,125);
+    font-size:1rem;
     font-weight:bold;
     font-family: 'Exo 2', sans-serif;
 }
 .about-item{
-    font-size:1.3 rem;
+    font-size:1.3rem;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -144,7 +144,7 @@ html{
 #feedback::before{
     content:"";
     position:absolute;
-    background-color:rgb (24,26,27);
+    background-color:rgb(24,26,27);
     width:100%;
     height:100%;
     z-index:-1;
@@ -152,26 +152,26 @@ html{
 #feedback{
     display:flex;
     justify-content:center;
-    height:707 px;
+    height:707px;
 }
 #feedback-content{
     display:flex;
     justify-content:center;
     flex-direction:column;
-    width:1200 px;
-    height:690 px;
-    margin:10 px 100 px;
+    width:1200px;
+    height:690px;
+    margin:10px 100px;
     color:white;
     font-family: 'Ubuntu', sans-serif;
 }
 #feedback-heading{
-    font-size:3 rem;
-    color:rgb (255,125,125);
+    font-size:3rem;
+    color:rgb(255,125,125);
     font-family: 'Ubuntu', sans-serif;
 } 
 .feedback-item{
-    padding:65 px 0 px;
-    font-size:1.5 rem;
+    padding:65px 0px;
+    font-size:1.5rem;
     color:white;
 }
 
@@ -179,57 +179,57 @@ html{
 #contact::before{
     content:"";
     position:absolute;
-    background-color:rgb (255,125,125);
-    width:100 %;
-    height:330 px;
+    background-color:rgb(255,125,125);
+    width:100%;
+    height:330px;
     z-index:-1;
 }
 #contact{
     display:flex;
     flex-direction:column;
-    height:300 px;
+    height:300px;
 }
 #contact-content{
     display:flex;
     justify-content:center;
-    margin:20 px 80 px;
+    margin:20px 80px;
 }
 #contact-heading{
     display:block;
     margin:auto;
     color:white;
     font-weight:bold;
-    font-size:3 rem;
+    font-size:3rem;
     font-family: 'Exo 2', sans-serif;
 }
 .btn{
-    padding:5 px 15 px;
-    margin:0 px 100 px;
-    margin-bottom:25 px;
+    padding:5px 15px;
+    margin:0px 100px;
+    margin-bottom:25px;
     background-color:black;
-    color:rgb (255,125,125);
+    color:rgb(255,125,125);
     font-weight:bold;
-    font-size:1.3 rem;
-    border:3 px solid white;
+    font-size:1.3rem;
+    border:3px solid white;
     border-radius:10 px;
 }
 .btn:hover{
     cursor:pointer;
-    font-size:1.5 rem;
+    font-size:1.5rem;
 }
 #buyline{
     display:block;
     margin:auto;
     color:white;
-    font-size:1.5 rem;
+    font-size:1.5rem;
 }
 #buybtn{
     display:block;
     margin:auto;
-    padding:10 px 80 px;
-    font-size:2 rem;
-    border:4 px solid black;
-    border-radius:20 px;
+    padding:10px 80px;
+    font-size:2rem;
+    border:4px solid black;
+    border-radius:20px;
     color:white;
     background-color:black;
 }
